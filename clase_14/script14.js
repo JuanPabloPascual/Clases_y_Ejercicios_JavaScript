@@ -40,8 +40,13 @@ obtenerNumero()
 
 Va a solicitar al usuario un numero y va a validar que el dato ingresado sea un numero
 Sino debera volver a solicitarlo
-Cuando termine de validar se retornara el numero */ 
+Cuando termine de validar se retornara el numero  
+
+Resolucion
 
 
+function calcularMinutos(horas) {
+    return horas * 60
+}
 
-
+*/
