@@ -44,9 +44,28 @@ Cuando termine de validar se retornara el numero
 
 Resolucion
 
-
 function calcularMinutos(horas) {
     return horas * 60
+}
+----------------------------------------------------------------------------------------------------------------
+
+Ejercicio 5 de la clase 14
+
+obtenerNumero()
+Va a solicitar al usuario un numero y va a validar que el dato ingresado sea un numero
+Sino debera volver a solicitarlo
+Cuando termine de validar se retornara el numero
+
+Resolucion
+
+function obtenerNumero(){
+    let numero = prompt('ingrese un numero')
+
+    while(!numero || isNaN(numero)){
+    numero_clase = prompt('Error, dato no valido, vuelva a inrgesar el numero')
+    }
+    numero= Number(numero)
+    return numero
 }
 
 */
