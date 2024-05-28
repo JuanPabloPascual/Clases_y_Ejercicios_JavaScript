@@ -107,7 +107,6 @@ for(let index = 0; index < personajes.length; index = index +1){
 }
 console.log('La suma de las edades es '+ sumatoriaEdad) */
 
-
 // Cuando lo hice me falto agregar un + entre apellido y edad. Ademas de cambiar la declaracion de la constante usuario.
 // Habia puesto nombre. Tampoco hay que modificar el let del for.
 
@@ -118,45 +117,3 @@ Opcional:
 Al finalizar el recorrido mostrar por consola 'total de edades: {sumatoria de las edades de los usuarios}' */
 
 // -----------------------------------------------------------------------------------------------------------------
-
-/* FOR OFF  es lo mismo que hice antes con let e index.
-Se le pone al element una palabra en singular. 
-Si el array fuese de strings seria con let en vez de const 
-Si quiero recorrer al revez o desde el medio, no se puede usar el FOR OF. Es aplicable en un 90%
-*/
-
-/* const personajes = [
-    {
-        nombre:'pepe',
-        apellido: 'suarez',
-        edad: 40,
-    },
-    {
-        nombre:'maria',
-        apellido: 'cassanova',
-        edad: 20,
-    },
-    {
-        nombre:'ezequiel',
-        apellido: 'rodriguez',
-        edad: 35,
-    },
-]
-
-for(const element of personajes){
-    console.log(element)
-} */
-
-// -----------------------------------------------------------------------------------------------------------------
-
-/* FOR IN  
-
-*/
-
-/* const datos = {
-    nombre:'pepe',
-    apellido: 'suarez',
-    dni: '54543565',
-    }
-
-for(let propiedad of datos) */
