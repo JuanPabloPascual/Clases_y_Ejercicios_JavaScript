@@ -44,7 +44,7 @@ console.dir(buttonProduct)
 caja.appendChild(buttonProduct) */
 
 
-const userInfo = document.getElementById('userInfo');
+/* const userInfo = document.getElementById('userInfo');
 
 const user = {
     username: 'pepesito',
@@ -75,11 +75,58 @@ span password
 adress input (y el valor debe ser la direccion)
 span input (el valor debe ser el email)
 
-
 */
 
+/* Explicacion con Array 
 
+const products = [
 
+{
+    precio: 1000,
+    nombre: 'tv samsung',
+    descripcion: 'lorem ipsum' 
+},
+{
+    precio: 1000,
+    nombre: 'tv samsung',
+    descripcion: 'lorem ipsum' 
+},
+{
+    precio: 1000,
+    nombre: 'tv samsung',
+    descripcion: 'lorem ipsum' 
+}
+]
+
+const productsContainerHTML = document.getElementById('products-container')
+
+let productsList = ''
+
+for (const producto of products){
+
+    productsList = productsList + `
+    
+    <h1>${producto.nombre}</h1>
+    <p>${producto.descripcion}</p>
+    <span>Precio: $${producto.precio} </span>
+    <div>
+    <input value='${producto.precio}'>
+    <button> comprar </button>
+    </div>
+    `;
+}
+
+productsContainerHTML.innerHTML = productsList  */
+
+/* Renderizar el historial, cada elemento de historial debe seguir la sig estructura:
+
+<div>
+    <span><b>ID: #003</b></span>
+    <h3>Tv samsung</h3>
+    <span>Fecha: 14/05/2023</span>
+    <br>
+    <hr>
+</div> */
 
 
 
