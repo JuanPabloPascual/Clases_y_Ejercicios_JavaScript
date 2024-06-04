@@ -8,9 +8,7 @@
     <hr>
 </div> */
 
-
 // ----------------------------------------------------------------------------------------------------------
-
 
 const historial = [
     {
@@ -34,7 +32,7 @@ const historial = [
         fecha: '30/09/2023'
     }
 ]
-const historialContainer = document.getElementById('historial-container')
+/* const historialContainer = document.getElementById('historial-container')
 
 let historialLista = ''
 for(const registro of historial){
@@ -47,6 +45,27 @@ for(const registro of historial){
     <hr>
 </div>
     `
+} */
+
+// historialContainer.innerHTML = historialLista
+
+const listaHistorialHTML = document.getElementById('lista')
+
+let listaHistorial = ''
+
+for(const item of historial){
+
+    listaHistorial = listaHistorial + `
+    <div>
+        <span>
+            <b>ID: #${item.id}</b>
+        </span>
+        <h3>${item.nombre}</h3>
+        <span>Fecha: ${item.fecha}</span>
+        <br>
+        <hr>
+    </div>
+    `
 }
 
-historialContainer.innerHTML = historialLista
+listaHistorialHTML.innerHTML = listaHistorial

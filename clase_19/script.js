@@ -77,11 +77,11 @@ userInfo.innerHTML = `
 h2 username
 span password
 adress input (y el valor debe ser la direccion)
-span input (el valor debe ser el email)
+span input (el valor debe ser el email) */
 
-*/
 
-/* Explicacion con Array 
+
+/* Explicacion con Array */ 
 
 const products = [
 
@@ -120,10 +120,4 @@ for (const producto of products){
     `;
 }
 
-productsContainerHTML.innerHTML = productsList  */
-
-
-
-
-
-
+productsContainerHTML.innerHTML = productsList 
