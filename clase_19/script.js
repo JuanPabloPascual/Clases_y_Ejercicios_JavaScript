@@ -44,6 +44,8 @@ console.dir(buttonProduct)
 caja.appendChild(buttonProduct) */
 
 
+// -------------------------------------------------------------------------------------------------------------------
+
 /* const userInfo = document.getElementById('userInfo');
 
 const user = {
@@ -67,6 +69,8 @@ userInfo.innerHTML = `
     <input type="text" value="${user.email}">
 </span>
 `;
+
+// ------------------------------------------------------------------------------------------------------------
 
 /* Generar a partir del usuario el siguiente html
 
@@ -118,15 +122,6 @@ for (const producto of products){
 
 productsContainerHTML.innerHTML = productsList  */
 
-/* Renderizar el historial, cada elemento de historial debe seguir la sig estructura:
-
-<div>
-    <span><b>ID: #003</b></span>
-    <h3>Tv samsung</h3>
-    <span>Fecha: 14/05/2023</span>
-    <br>
-    <hr>
-</div> */
 
 
 
