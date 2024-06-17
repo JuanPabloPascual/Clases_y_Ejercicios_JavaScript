@@ -57,7 +57,6 @@ formulario.addEventListener('submit', ( evento)=> {
             span.innerText = ''
         }else{
             console.log(input.error)
-            document.getElementById(input.id).style = 'border: 1px solid red'
             let span = document.getElementById('mensaje-error-' + INPUTS[i].id)
             span.innerText = INPUTS[i].error
         }
