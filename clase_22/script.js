@@ -48,7 +48,7 @@ span: phone: {user.phone}
 span: email: {user.email}
 
 const URL_API = 'https://jsonplaceholder.typicode.com'
- 
+
 const obtenerUsuarios = async () =>{
     const response = await fetch(URL_API + '/users/1',{
         method: 'GET',
@@ -56,7 +56,7 @@ const obtenerUsuarios = async () =>{
     
     const data = await response.json()
     
-    div.innerHTML = `
+    div.innerHTML = `                      // Renderizar
         <h2>
         ${data.name}
         </h2>
@@ -97,3 +97,6 @@ const renderizarUsuario = async ( valorBusqueda, buscarUsuarioCallback ) => {
 }
 
 renderizarUsuario(1, buscarUserPorId)
+
+
+// La funcion de renderizar es a parte por buenas paracticas
